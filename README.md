@@ -3,7 +3,7 @@
 URL
 
 
-1. I'm submitting it on Jumpstarter for now, the cut off time for Jumpstarter is July 31st.
+1. I still have to host the project (initially I've used Jumpstarter and have to migrate now)
 2. For some reason css style doesn't work yet (I've used separate .css file for styling as suggested),
    so it can look nicer, I'll polish it later
 3. Generated password  contains spaces, I've tried trim func and str_replace func to get rid of spaces - but no luck,
