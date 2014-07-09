@@ -2,7 +2,6 @@
     
 	$errorHandler = "";
 	
-	
 	$password = "word1-word2-word3-word4"; //default entry for password 
 	$maxNumOfPasswordWords = 9;
     $filename = "commonWords.txt";
@@ -16,7 +15,7 @@
 	}
 	else
 	{
-	   $errorHandler = $filename + " can not be opened";
+	   $errorHandler = "Error: ". $filename . " can not be opened";
 	}
 	
 	$numWords = (int)$_POST['numWords'];
@@ -48,7 +47,7 @@
 		   {
 		     $dash = "-";
 		   }
-	       $password = $password . $dash . trim($commonWords[rand ( 0 , ($arraySize - 1)) ], ' ');
+	       $password = $password . $dash . trim($commonWords[rand ( 0 , ($arraySize - 1)) ]);
 	   }
 	   
 	   if ($addNumber)
@@ -62,6 +61,4 @@
 	   }
 	}
 	
-	
-
 ?>
