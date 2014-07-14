@@ -1,7 +1,8 @@
 ****************************************P2 assignemnt****************************************
 
-URL *not ready yet*
+URL (I've finally set up droplet at the DigitalOcean and have registered personal domain)
 
+http://p2.promptdev.com/
 
 1. I still have to host the project (initially I've used Jumpstarter and have to migrate now)
 
